@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-container {
+  min-height: calc(100vh - 56px);
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.article-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.category-badge {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.category-badge:hover {
+  transform: scale(1.1);
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.editor-panel {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-panel {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table-actions button {
+  margin: 0 2px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: #28a745;
+  margin-top: 10px;
+}
